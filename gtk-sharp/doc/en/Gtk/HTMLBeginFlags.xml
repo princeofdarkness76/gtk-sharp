@@ -1,0 +1,50 @@
+<Type Name="HTMLBeginFlags" FullName="Gtk.HTMLBeginFlags">
+  <TypeSignature Language="C#" Maintainer="auto" Value="public enum HTMLBeginFlags" />
+  <AssemblyInfo>
+    <AssemblyName>gtkhtml-sharp</AssemblyName>
+    <AssemblyPublicKey>
+    </AssemblyPublicKey>
+    <AssemblyVersion>2.8.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <ThreadSafetyStatement>Gtk# is thread aware, but not thread safe; See the <link location="node:gtk-sharp/programming/threads">Gtk# Thread Programming</link> for details.</ThreadSafetyStatement>
+  <Docs>
+    <summary>Flags for how to begin processing a chunk of HTML.</summary>
+    <remarks>Mostly for internal use.</remarks>
+  </Docs>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Members>
+    <Member MemberName="Scroll">
+      <MemberSignature Language="C#" Value="Scroll" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Gtk.HTMLBeginFlags</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Whether to scroll this chunk of HTML.</summary>
+        <remarks>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Images">
+      <MemberSignature Language="C#" Value="Images" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Gtk.HTMLBeginFlags</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Whether to process images or not.</summary>
+        <remarks>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,10 @@
+using System.Reflection;
+using System.Runtime.CompilerServices;
+
+[assembly:AssemblyVersion("@API_VERSION@")]
+[assembly:AssemblyDelaySign(false)]
+<<<<<<< HEAD:AssemblyInfo.cs.in
+=======
+[assembly:AssemblyKeyFile("gtk-sharp.snk")]
+[assembly:GLib.IgnoreClassInitializers]
+>>>>>>> origin/gtk-sharp-2-468-branch:gtk-sharp/AssemblyInfo.cs.in

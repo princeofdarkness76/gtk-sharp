@@ -1,0 +1,12 @@
+#!/bin/sh
+set -e
+set -x
+
+sed -e "s/@GTK_SHARP_VERSION@/2.8.6/"     -e "s/@GTK_REQUIRED_VERSION@/2.8.0/"     -e "s/@GNOME_REQUIRED_VERSION@/2.10.0/"     -e "s/@VERSIONCSDEFINES@/-define:GTK_SHARP_2_6 -define:GTK_SHARP_2_8/"     -e "s/@VERSIONCFLAGS@/-DGTK_SHARP_2_6 -DGTK_SHARP_2_8/"     -e "s/@POLICY_VERSIONS@/2.4 2.6/"     -e "s/@ASSEMBLY_VERSION@/2.8.0.0/" /Users/stevenjames2/Documents/gtk-sharp/gtk-sharp/configure.in.in > /Users/stevenjames2/Documents/gtk-sharp/gtk-sharp/configure.in
+
+ln -f /Users/stevenjames2/Documents/gtk-sharp/gtk-sharp/pango/pango-api-2.8.raw /Users/stevenjames2/Documents/gtk-sharp/gtk-sharp/pango/pango-api.raw
+ln -f /Users/stevenjames2/Documents/gtk-sharp/gtk-sharp/atk/atk-api-2.8.raw /Users/stevenjames2/Documents/gtk-sharp/gtk-sharp/atk/atk-api.raw
+ln -f /Users/stevenjames2/Documents/gtk-sharp/gtk-sharp/gdk/gdk-api-2.8.raw /Users/stevenjames2/Documents/gtk-sharp/gtk-sharp/gdk/gdk-api.raw
+ln -f /Users/stevenjames2/Documents/gtk-sharp/gtk-sharp/gtk/gtk-api-2.8.raw /Users/stevenjames2/Documents/gtk-sharp/gtk-sharp/gtk/gtk-api.raw
+ln -f /Users/stevenjames2/Documents/gtk-sharp/gtk-sharp/gnomevfs/gnome-vfs-api-2.10.raw /Users/stevenjames2/Documents/gtk-sharp/gtk-sharp/gnomevfs/gnome-vfs-api.raw
+ln -f /Users/stevenjames2/Documents/gtk-sharp/gtk-sharp/gnome/gnome-api-2.10.raw /Users/stevenjames2/Documents/gtk-sharp/gtk-sharp/gnome/gnome-api.raw

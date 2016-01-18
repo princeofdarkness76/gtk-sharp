@@ -1,6 +1,10 @@
 <?xml version="1.0"?>
 <assemblies>
+<<<<<<< HEAD
   <assembly name="gtk-dotnet" version="2.12.0.0">
+=======
+  <assembly name="gtk-dotnet" version="2.8.0.0">
+>>>>>>> mono/gtk-sharp-2-10-branch
     <attributes>
       <attribute name="GLib.IgnoreClassInitializersAttribute" />
       <attribute name="System.Reflection.AssemblyKeyFileAttribute">

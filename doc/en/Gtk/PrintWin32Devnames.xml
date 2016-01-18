@@ -3,6 +3,10 @@
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit PrintWin32Devnames extends System.ValueType implements class System.IEquatable`1&lt;valuetype Gtk.PrintWin32Devnames&gt;" />
   <AssemblyInfo>
     <AssemblyName>gtk-sharp</AssemblyName>
+<<<<<<< HEAD
+=======
+    <AssemblyVersion>2.10.0.0</AssemblyVersion>
+>>>>>>> mono/gtk-sharp-2-10-branch
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
